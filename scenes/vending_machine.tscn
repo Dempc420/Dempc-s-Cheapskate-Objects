@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=3 uid="uid://bb07c6scvsnl4"]
+
+[ext_resource type="Material" uid="uid://bbsr17x2caucr" path="res://BaseLevelAssets/Materials/plasticBlack.tres" id="1_i6htu"]
+[ext_resource type="Material" uid="uid://8276mj45jt22" path="res://BaseLevelAssets/Materials/glass01.tres" id="2_llbls"]
+[ext_resource type="Material" uid="uid://c0e6i0uaa3xea" path="res://BaseLevelAssets/Materials/plasticGray.tres" id="3_2hrav"]
+[ext_resource type="Texture2D" uid="uid://bsv7x7je5yyqv" path="res://BaseLevelAssets/Decals/Shoutouts/cheapskateLogoGraffiti.png" id="4_vf613"]
+
+[node name="Vending Machine" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.7521224, 0.7832322)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9332218, 2.779585, -1.0133562)
+use_collision = true
+size = Vector3(0.75, 3, 2)
+material = ExtResource("1_i6htu")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="CSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.01568985, 0.16664124, 0.23561096)
+use_collision = true
+size = Vector3(0.75, 1.9962463, 1.4328308)
+material = ExtResource("2_llbls")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="CSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.01568985, -0.43608093, -0.72476196)
+use_collision = true
+size = Vector3(0.75, 0.790802, 0.41856384)
+material = ExtResource("3_2hrav")
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="CSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.01568985, 0.59705305, -0.72476196)
+use_collision = true
+size = Vector3(0.75, 1.145401, 0.41856384)
+material = ExtResource("3_2hrav")
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="CSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1282978, 0.6001682, -0.730011)
+use_collision = true
+size = Vector3(0.58935547, 1.0329981, 0.34731674)
+material = ExtResource("1_i6htu")
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="CSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.01568985, -1.1651444, 0.0055236816)
+use_collision = true
+size = Vector3(0.75, 0.51052856, 1.8930054)
+material = ExtResource("3_2hrav")
+
+[node name="Sprite3D" type="Sprite3D" parent="CSGBox3D"]
+transform = Transform3D(-8.742278e-09, 0, 0.2, 0, 0.2, 0, -0.2, 0, -8.742278e-09, 0.376976, 1.342258, 0.14443207)
+texture = ExtResource("4_vf613")
