@@ -1,0 +1,739 @@
+[gd_scene load_steps=8 format=3 uid="uid://bdfn4sj01q8mu"]
+
+[ext_resource type="Material" uid="uid://nh4rf8ldhpio" path="res://BaseLevelAssets/Materials/woodDark.tres" id="1_mbqap"]
+[ext_resource type="Material" uid="uid://daeyk2wx8mfe4" path="res://BaseLevelAssets/Materials/woodMid.tres" id="2_3c8j7"]
+[ext_resource type="Material" uid="uid://cw31s07far3h7" path="res://BaseLevelAssets/Materials/marbleDark.tres" id="3_mmdvt"]
+[ext_resource type="Material" uid="uid://bo1ynlbxtgqf6" path="res://BaseLevelAssets/Materials/cloud01.tres" id="4_vwowl"]
+[ext_resource type="Material" uid="uid://bbsr17x2caucr" path="res://BaseLevelAssets/Materials/plasticBlack.tres" id="5_4el8r"]
+[ext_resource type="Texture2D" uid="uid://jsivxwd74pri" path="res://BaseLevelAssets/Decals/Shoutouts/pnwk_compass.png" id="6_778yy"]
+[ext_resource type="Texture2D" uid="uid://tsqo0hg1n5he" path="res://Levels/DempcSkateCentre/gfx/Dempcy.png" id="7_q0ygu"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Pirate Ship" type="Node3D" parent="."]
+transform = Transform3D(0.954823, 0, -0.29717487, 0, 1, 0, 0.29717487, 0, 0.954823, 4.2360516, 69.078354, -37.45857)
+
+[node name="Base" type="CSGBox3D" parent="Pirate Ship"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.7531738, 0.8063965, 6.9091187)
+use_collision = true
+size = Vector3(6.96, 3, 14.818)
+material = ExtResource("1_mbqap")
+
+[node name="Subtract1" type="CSGBox3D" parent="Pirate Ship/Base"]
+transform = Transform3D(0.8209898, 0, 0.5709429, 0, 1, 0, -0.5709429, 0, 0.8209898, -2.9069955, -0.047210693, 8.605036)
+operation = 2
+size = Vector3(2.278, 3.9848022, 7.099)
+material = ExtResource("1_mbqap")
+
+[node name="Subtract2" type="CSGBox3D" parent="Pirate Ship/Base"]
+transform = Transform3D(0.8211492, 0, -0.5707136, 0, 1, 0, 0.5707136, 0, 0.8211492, 2.5060768, 0.14315796, 8.862806)
+operation = 2
+size = Vector3(1.8990204, 5.0585327, 6.159274)
+material = ExtResource("1_mbqap")
+
+[node name="Subtract3" type="CSGBox3D" parent="Pirate Ship/Base"]
+transform = Transform3D(-0.6033473, 0, -0.7974787, 0, 1, 0, 0.7974787, 0, -0.6033473, 3.2773948, -0.43440247, -7.772458)
+operation = 2
+size = Vector3(1.988, 9.970551, 3.447)
+material = ExtResource("1_mbqap")
+
+[node name="Subtract4" type="CSGBox3D" parent="Pirate Ship/Base"]
+transform = Transform3D(-0.603208, 0, 0.79758406, 0, 1, 0, -0.79758406, 0, -0.603208, -2.892963, -1.0731201, -7.925201)
+operation = 2
+size = Vector3(1.909, 10.89856, 3.045)
+material = ExtResource("1_mbqap")
+
+[node name="Front" type="CSGBox3D" parent="Pirate Ship/Base"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.021400452, 0.0006713867, 9.053189)
+use_collision = true
+size = Vector3(4.659, 3, 3.35)
+material = ExtResource("1_mbqap")
+
+[node name="Subtract6" type="CSGBox3D" parent="Pirate Ship/Base/Front"]
+transform = Transform3D(0.8209898, 0, 0.5709429, 0, 1, 0, -0.5709429, 0, 0.8209898, -2.8202386, -0.5058594, -0.35417366)
+operation = 2
+size = Vector3(2.278, 4.0810547, 7.3279424)
+material = ExtResource("1_mbqap")
+
+[node name="Subtract5" type="CSGBox3D" parent="Pirate Ship/Base/Front"]
+transform = Transform3D(0.8211492, 0, -0.5707136, 0, 1, 0, 0.5707136, 0, 0.8211492, 2.7190416, -2.624817, -0.4735794)
+operation = 2
+size = Vector3(1.9076601, 8.7404785, 6.983)
+material = ExtResource("1_mbqap")
+
+[node name="Front2" type="CSGBox3D" parent="Pirate Ship/Base"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.021400452, 0.41060638, 9.053189)
+use_collision = true
+size = Vector3(4.659, 3, 3.35)
+material = ExtResource("1_mbqap")
+
+[node name="Subtract6" type="CSGBox3D" parent="Pirate Ship/Base/Front2"]
+transform = Transform3D(0.8209898, 0, 0.5709429, 0, 1, 0, -0.5709429, 0, 0.8209898, -2.8202386, -0.5058594, -0.35417366)
+operation = 2
+size = Vector3(2.278, 4.0810547, 7.3279424)
+material = ExtResource("1_mbqap")
+
+[node name="Subtract5" type="CSGBox3D" parent="Pirate Ship/Base/Front2"]
+transform = Transform3D(0.8211492, 0, -0.5707136, 0, 1, 0, 0.5707136, 0, 0.8211492, 2.7190416, -2.624817, -0.4735794)
+operation = 2
+size = Vector3(1.9076601, 8.7404785, 6.983)
+material = ExtResource("1_mbqap")
+
+[node name="Captain\'s Quarters" type="CSGBox3D" parent="Pirate Ship/Base"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.03182125, 2.0152283, -4.6431637)
+use_collision = true
+size = Vector3(6.785095, 2.578186, 3.2734375)
+material = ExtResource("1_mbqap")
+
+[node name="Steps" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters"]
+transform = Transform3D(-3.7855173e-08, 2.1855694e-08, 1, 0.5, 0.8660254, 0, -0.8660254, 0.5, -4.371139e-08, -2.7931507, 0.29177094, 3.2287211)
+size = Vector3(3.751, 0.1340332, 1)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps2" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4201584, -0.039001465, -0.005249083)
+operation = 2
+size = Vector3(0.20039403, 0.21203613, 0.7883301)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps3" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.033432, -0.038978577, -0.005249083)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps4" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65566635, -0.038963318, -0.0052490234)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps5" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5833359, -0.03895569, -0.005249083)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps6" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2089348, -0.0389328, -0.005249083)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps7" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8110771, -0.038894653, -0.0052493215)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps8" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.40906906, -0.038879395, -0.005249381)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps9" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.07387543, -0.03882599, -0.005249381)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps10" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.28690338, -0.03882599, -0.005249381)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps2" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters"]
+transform = Transform3D(-3.7855173e-08, 2.1855694e-08, 1, 0.5, 0.8660254, 0, -0.8660254, 0.5, -4.371139e-08, 2.8534126, 0.29177094, 3.2287211)
+size = Vector3(3.751, 0.1340332, 1)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps2" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4201584, -0.039001465, -0.005249083)
+operation = 2
+size = Vector3(0.20039403, 0.21203613, 0.7883301)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps3" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.033432, -0.038978577, -0.005249083)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps4" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65566635, -0.038963318, -0.0052490234)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps5" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5833359, -0.03895569, -0.005249083)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps6" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2089348, -0.0389328, -0.005249083)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps7" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8110771, -0.038894653, -0.0052493215)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps8" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.40906906, -0.038879395, -0.005249381)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps9" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.07387543, -0.03882599, -0.005249381)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Steps10" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Steps2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.28690338, -0.03882599, -0.005249381)
+operation = 2
+size = Vector3(0.2, 0.212, 0.788)
+material = ExtResource("2_3c8j7")
+metadata/terrain = &"wood"
+
+[node name="Door" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.33428955, 1.6202435)
+size = Vector3(1, 1.7032471, 0.2052002)
+material = ExtResource("2_3c8j7")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Door"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.24301863, 0.46269226, -0.19796753)
+size = Vector3(0.3, 0.59838283, 0.604)
+material = ExtResource("3_mmdvt")
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Door"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.24301863, -0.38516235, -0.19796753)
+size = Vector3(0.3, 0.59838283, 0.604)
+material = ExtResource("3_mmdvt")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Door"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.23701763, -0.38516235, -0.19796753)
+size = Vector3(0.3, 0.59838283, 0.604)
+material = ExtResource("3_mmdvt")
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Door"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.23701763, 0.45866394, -0.19796753)
+size = Vector3(0.3, 0.59838283, 0.604)
+material = ExtResource("3_mmdvt")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Pirate Ship/Base/Captain\'s Quarters/Door"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.35680723, 0.05319214, -0.0049772263)
+radius = 0.134
+material = ExtResource("1_mbqap")
+
+[node name="Window" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.559711, 0.42900085, 1.1437252)
+material = ExtResource("3_mmdvt")
+
+[node name="Frame" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Window"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4675064, 0.028252125)
+size = Vector3(1, 0.08581543, 1)
+material = ExtResource("2_3c8j7")
+
+[node name="Frame2" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Window"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.010635376, 0.028252125)
+size = Vector3(1, 0.08581543, 1)
+material = ExtResource("2_3c8j7")
+
+[node name="Frame3" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Window"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.4702072, 0.028252125)
+size = Vector3(1, 0.08581543, 1)
+material = ExtResource("2_3c8j7")
+
+[node name="Frame4" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Window"]
+transform = Transform3D(-4.3711385e-08, -0.99999994, 0, 0.99999994, -4.3711385e-08, 0, 0, 0, 1, 0.45715523, 0.013587952, 0.028252125)
+size = Vector3(1, 0.08581543, 1)
+material = ExtResource("2_3c8j7")
+
+[node name="Frame5" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Window"]
+transform = Transform3D(-4.3711385e-08, -0.99999994, 0, 0.99999994, -4.3711385e-08, 0, 0, 0, 1, -0.459404, 0.013587952, 0.028252125)
+size = Vector3(1, 0.08581543, 1)
+material = ExtResource("2_3c8j7")
+
+[node name="Frame6" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Window"]
+transform = Transform3D(-4.3711385e-08, -0.99999994, 0, 0.99999994, -4.3711385e-08, 0, 0, 0, 1, -0.015868664, 0.013587952, 0.028252125)
+size = Vector3(1, 0.08581543, 1)
+material = ExtResource("2_3c8j7")
+
+[node name="Window2" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4990478, 0.42900085, 1.1437252)
+material = ExtResource("3_mmdvt")
+
+[node name="Frame" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Window2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4675064, 0.028252125)
+size = Vector3(1, 0.08581543, 1)
+material = ExtResource("2_3c8j7")
+
+[node name="Frame2" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Window2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.010635376, 0.028252125)
+size = Vector3(1, 0.08581543, 1)
+material = ExtResource("2_3c8j7")
+
+[node name="Frame3" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Window2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.4702072, 0.028252125)
+size = Vector3(1, 0.08581543, 1)
+material = ExtResource("2_3c8j7")
+
+[node name="Frame4" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Window2"]
+transform = Transform3D(-4.3711385e-08, -0.99999994, 0, 0.99999994, -4.3711385e-08, 0, 0, 0, 1, 0.45715523, 0.013587952, 0.028252125)
+size = Vector3(1, 0.08581543, 1)
+material = ExtResource("2_3c8j7")
+
+[node name="Frame5" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Window2"]
+transform = Transform3D(-4.3711385e-08, -0.99999994, 0, 0.99999994, -4.3711385e-08, 0, 0, 0, 1, -0.459404, 0.013587952, 0.028252125)
+size = Vector3(1, 0.08581543, 1)
+material = ExtResource("2_3c8j7")
+
+[node name="Frame6" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters/Window2"]
+transform = Transform3D(-4.3711385e-08, -0.99999994, 0, 0.99999994, -4.3711385e-08, 0, 0, 0, 1, -0.015868664, 0.013587952, 0.028252125)
+size = Vector3(1, 0.08581543, 1)
+material = ExtResource("2_3c8j7")
+
+[node name="Wheel" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.011679649, 1.5571518, 1.2778141)
+size = Vector3(0.064208984, 0.6427002, 0.089782715)
+material = ExtResource("1_mbqap")
+
+[node name="CSGTorus3D" type="CSGTorus3D" parent="Pirate Ship/Base/Captain\'s Quarters/Wheel"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0.80181885, 0)
+inner_radius = 0.568
+outer_radius = 0.464
+material = ExtResource("2_3c8j7")
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Pirate Ship/Base/Captain\'s Quarters/Wheel/CSGTorus3D"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.0016713142, 0, 0.008361816)
+radius = 0.012
+height = 1.0467343
+material = ExtResource("2_3c8j7")
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Pirate Ship/Base/Captain\'s Quarters/Wheel/CSGTorus3D"]
+transform = Transform3D(-0.012915057, -0.9999166, 0, -4.3707743e-08, 5.645351e-10, -1, 0.9999166, -0.012915057, -4.371139e-08, 0.0016713142, 0, -0.011054993)
+radius = 0.012
+height = 1.0467343
+material = ExtResource("2_3c8j7")
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="Pirate Ship/Base/Captain\'s Quarters/Wheel/CSGTorus3D"]
+transform = Transform3D(0.72301537, -0.6908319, 0, -3.019722e-08, -3.1604007e-08, -1, 0.6908319, 0.72301537, -4.371139e-08, 0.0016713142, 0, -0.007987976)
+radius = 0.012
+height = 1.0467343
+material = ExtResource("2_3c8j7")
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="Pirate Ship/Base/Captain\'s Quarters/Wheel/CSGTorus3D"]
+transform = Transform3D(-0.68536085, -0.72820354, 0, -3.1830787e-08, 2.9958073e-08, -1, 0.72820354, -0.68536085, -4.371139e-08, 0.0016713142, 0, -0.007987976)
+radius = 0.012
+height = 1.0467343
+material = ExtResource("2_3c8j7")
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="Pirate Ship/Base/Captain\'s Quarters/Wheel/CSGTorus3D"]
+transform = Transform3D(0.92561305, 0.37847093, 0, 1.654349e-08, -4.045983e-08, -1, -0.37847093, 0.92561305, -4.371139e-08, 0.0016713142, 0, -0.007987976)
+radius = 0.012
+height = 1.0467343
+material = ExtResource("2_3c8j7")
+
+[node name="CSGCylinder3D6" type="CSGCylinder3D" parent="Pirate Ship/Base/Captain\'s Quarters/Wheel/CSGTorus3D"]
+transform = Transform3D(0.36927643, -0.9293195, 0, -4.0621845e-08, -1.6141586e-08, -1, 0.9293195, 0.36927643, -4.371139e-08, 0.0016713142, 0, -0.007987976)
+radius = 0.012
+height = 1.0467343
+material = ExtResource("2_3c8j7")
+
+[node name="CSGCylinder3D7" type="CSGCylinder3D" parent="Pirate Ship/Base/Captain\'s Quarters/Wheel/CSGTorus3D"]
+transform = Transform3D(-0.36341375, -0.93162775, 0, -4.0722743e-08, 1.588532e-08, -1, 0.93162775, -0.36341375, -4.371139e-08, 0.0016713142, 0, -0.007987976)
+radius = 0.012
+height = 1.0467343
+material = ExtResource("2_3c8j7")
+
+[node name="CSGCylinder3D8" type="CSGCylinder3D" parent="Pirate Ship/Base/Captain\'s Quarters/Wheel/CSGTorus3D"]
+transform = Transform3D(-0.9347573, 0.35528636, 0, 1.553006e-08, 4.085954e-08, -1, -0.35528636, -0.9347573, -4.371139e-08, 0.0016713142, 0, -0.007987976)
+radius = 0.012
+height = 1.0467343
+material = ExtResource("2_3c8j7")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.027570724, 0.3679428, -2.1907063)
+size = Vector3(6.9971657, 1.7358856, 1.201355)
+material = ExtResource("1_mbqap")
+
+[node name="Subtract5" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters"]
+transform = Transform3D(-0.603208, 0, 0.79758406, 0, 1, 0, -0.79758406, 0, -0.603208, -2.8611417, -3.0883484, -3.2820373)
+operation = 2
+size = Vector3(1.909, 10.89856, 3.045)
+material = ExtResource("1_mbqap")
+
+[node name="Subtract6" type="CSGBox3D" parent="Pirate Ship/Base/Captain\'s Quarters"]
+transform = Transform3D(-0.6033473, 0, -0.7974787, 0, 1, 0, 0.7974787, 0, -0.6033473, 3.3085842, -2.4496307, -3.1284595)
+operation = 2
+size = Vector3(1.9900937, 9.970551, 3.447)
+material = ExtResource("1_mbqap")
+
+[node name="Walls & Railings" type="Node3D" parent="Pirate Ship/Base"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.7531738, -0.8063965, -6.9091187)
+
+[node name="HalfWall 1" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3338411, 2.806015, 10.846084)
+use_collision = true
+size = Vector3(0.11694336, 1, 3.695528)
+material = ExtResource("1_mbqap")
+
+[node name="Railing1" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/HalfWall 1"]
+transform = Transform3D(1, 0, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.9106855e-15, -0.0014570355, 0.5563965, -0.001830101)
+radius = 0.083
+height = 3.705943
+material = ExtResource("2_3c8j7")
+
+[node name="HalfWall 2" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(0.82090014, 0, 0.57107186, 0, 1, 0, -0.57107186, 0, 0.82090014, 2.040027, 2.9579544, 15.145546)
+use_collision = true
+size = Vector3(0.092163086, 1.6153564, 6.0482655)
+material = ExtResource("1_mbqap")
+
+[node name="Railing1" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/HalfWall 2"]
+transform = Transform3D(1, 0, -4.371138e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, -2.4868996e-14, -0.001455307, 0.8755646, -0.0053834915)
+radius = 0.083
+height = 6.0593195
+material = ExtResource("2_3c8j7")
+
+[node name="Railing2" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/HalfWall 2"]
+transform = Transform3D(0.85365146, -0.4909931, -0.17379567, -0.019241765, 0.30372345, -0.9525659, 0.52048886, 0.8165035, 0.24982643, -0.63084745, 1.279808, 4.061556)
+radius = 0.083
+height = 2.6779158
+material = ExtResource("1_mbqap")
+
+[node name="HalfWall 3" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(0.8211492, 0, -0.5707136, 0, 1, 0, 0.5707136, 0, 0.8211492, 5.48028, 2.9579544, 15.145546)
+use_collision = true
+size = Vector3(0.092163086, 1.6153564, 6.0482655)
+material = ExtResource("1_mbqap")
+
+[node name="Railing1" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/HalfWall 3"]
+transform = Transform3D(1, 0, -4.371138e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, -2.4868996e-14, -0.001455307, 0.8755646, -0.0053834915)
+radius = 0.083
+height = 6.0593195
+material = ExtResource("2_3c8j7")
+
+[node name="Railing2" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/HalfWall 3"]
+transform = Transform3D(0.8177472, 0.48195088, 0.31466565, -0.003916472, 0.55134094, -0.83427095, -0.57556576, 0.6809901, 0.4527445, -0.2202425, 0.63581085, -3.2990136)
+radius = 0.083
+height = 0.9129325
+material = ExtResource("2_3c8j7")
+
+[node name="Railing3" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/HalfWall 3"]
+transform = Transform3D(0.8177472, 0.48195088, 0.31466565, -0.003916472, 0.55134094, -0.83427095, -0.57556576, 0.6809901, 0.4527445, -5.842226, 0.63581085, 0.60836697)
+radius = 0.083
+height = 0.9129325
+material = ExtResource("2_3c8j7")
+
+[node name="HalfWalf 2" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.1777105, 2.806015, 6.6154246)
+use_collision = true
+size = Vector3(0.11694336, 1, 12.156846)
+material = ExtResource("1_mbqap")
+
+[node name="Railing1" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/HalfWalf 2"]
+transform = Transform3D(1, 0, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.9106855e-15, -0.0014572144, 0.5563965, 0.0047335625)
+radius = 0.083
+height = 12.167608
+material = ExtResource("2_3c8j7")
+
+[node name="HalfWalf 3" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 3.882133, 4.258621, -0.4677348)
+use_collision = true
+size = Vector3(0.11694336, 1, 4.2105)
+material = ExtResource("1_mbqap")
+
+[node name="Railing1" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/HalfWalf 3"]
+transform = Transform3D(1, 0, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.9106855e-15, -0.0014572144, 0.5563965, 0.0031456947)
+radius = 0.083
+height = 4.218652
+material = ExtResource("2_3c8j7")
+
+[node name="HalfWalf 5" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(0.5917882, 0, -0.8060937, 0, 1, 0, 0.8060937, 0, 0.5917882, 1.041343, 4.258621, 0.08783445)
+use_collision = true
+size = Vector3(0.11694336, 1, 1.950873)
+material = ExtResource("1_mbqap")
+
+[node name="Railing1" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/HalfWalf 5"]
+transform = Transform3D(1, -2.9802322e-08, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 2.9802322e-08, 1, 1.7763568e-15, -0.0014572144, 0.5563965, 0.047201037)
+radius = 0.083
+height = 2.0246336
+material = ExtResource("2_3c8j7")
+
+[node name="HalfWalf 6" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(0.6806315, 0, 0.7326262, 0, 1, 0, -0.7326262, 0, 0.6806315, 6.613779, 4.258621, 0.11027305)
+use_collision = true
+size = Vector3(0.11694336, 1, 1.6598374)
+material = ExtResource("1_mbqap")
+
+[node name="Railing1" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/HalfWalf 6"]
+transform = Transform3D(1, 0, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.7763568e-15, -0.01757145, 0.5563965, -0.060281277)
+radius = 0.083
+height = 1.7847778
+material = ExtResource("2_3c8j7")
+
+[node name="HalfWalf 4" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 3.7529702, 4.258621, 3.8551965)
+use_collision = true
+size = Vector3(0.11694336, 1, 4.6502476)
+material = ExtResource("1_mbqap")
+
+[node name="Railing1" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/HalfWalf 4"]
+transform = Transform3D(1, 0, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.9106855e-15, -0.0014572144, 0.5563965, 0.00026488304)
+radius = 0.083
+height = 4.6535153
+material = ExtResource("2_3c8j7")
+
+[node name="Halfwall 2" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3338411, 2.806015, 4.053948)
+use_collision = true
+size = Vector3(0.11694336, 1, 6.8525553)
+material = ExtResource("1_mbqap")
+
+[node name="Railing2" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/Halfwall 2"]
+transform = Transform3D(1, 0, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.9106855e-15, -0.0014570355, 0.5563965, -0.0036568642)
+use_collision = true
+radius = 0.083
+height = 6.860601
+material = ExtResource("2_3c8j7")
+
+[node name="Halfwall 3" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3338411, 4.0662994, 2.2717295)
+use_collision = true
+size = Vector3(0.11694336, 1.4384766, 3.2881184)
+material = ExtResource("1_mbqap")
+
+[node name="Railing2" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/Halfwall 3"]
+transform = Transform3D(1, 0, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.9106855e-15, -0.0014570355, 0.73970795, -0.0016024113)
+use_collision = true
+radius = 0.083
+height = 3.2915092
+material = ExtResource("2_3c8j7")
+
+[node name="Railing3" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/Halfwall 3"]
+transform = Transform3D(1, 0, -4.371139e-08, -3.0570718e-08, -0.7147535, -0.69937646, -3.124287e-08, 0.69937646, -0.7147535, -0.0014570355, 0.028259277, 2.3087645)
+use_collision = true
+radius = 0.083
+height = 2.0669563
+material = ExtResource("2_3c8j7")
+
+[node name="Halfwall 4" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings/Halfwall 3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.023513794, 0.7133789)
+use_collision = true
+size = Vector3(0.11694336, 1.4493103, 4.714876)
+material = ExtResource("1_mbqap")
+
+[node name="Subtract" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings/Halfwall 3/Halfwall 4"]
+transform = Transform3D(1, 0, 0, 0, 0.69163924, -0.72224337, 0, 0.72224337, 0.69163924, 0, 0.48275757, 2.2543006)
+operation = 2
+use_collision = true
+size = Vector3(0.11694336, 1.4897919, 2.7597737)
+material = ExtResource("1_mbqap")
+
+[node name="Halfwall 4" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.178241, 4.0662994, 2.2717295)
+use_collision = true
+size = Vector3(0.11694336, 1.4384766, 3.2881184)
+material = ExtResource("1_mbqap")
+
+[node name="Railing2" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/Halfwall 4"]
+transform = Transform3D(1, 0, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.9106855e-15, -0.0014570355, 0.73970795, -0.0016024113)
+use_collision = true
+radius = 0.083
+height = 3.2915092
+material = ExtResource("2_3c8j7")
+
+[node name="Railing3" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings/Halfwall 4"]
+transform = Transform3D(1, 0, -4.371139e-08, -3.0570718e-08, -0.7147535, -0.69937646, -3.124287e-08, 0.69937646, -0.7147535, -0.0014570355, 0.028259277, 2.3087645)
+use_collision = true
+radius = 0.083
+height = 2.0669563
+material = ExtResource("2_3c8j7")
+
+[node name="Halfwall 4" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings/Halfwall 4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.023513794, 0.7133789)
+use_collision = true
+size = Vector3(0.11694336, 1.4493103, 4.714876)
+material = ExtResource("1_mbqap")
+
+[node name="Subtract" type="CSGBox3D" parent="Pirate Ship/Base/Walls & Railings/Halfwall 4/Halfwall 4"]
+transform = Transform3D(1, 0, 0, 0, 0.69163924, -0.72224337, 0, 0.72224337, 0.69163924, 0, 0.48275757, 2.2543006)
+operation = 2
+use_collision = true
+size = Vector3(0.11694336, 1.4897919, 2.7597737)
+material = ExtResource("1_mbqap")
+
+[node name="Railing2" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(1, 0, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.9106855e-15, 7.1762533, 2.306839, 6.620158)
+radius = 0.083
+height = 12.167608
+material = ExtResource("2_3c8j7")
+
+[node name="Railing3" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(1, 0, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.9106855e-15, 7.1762533, 0.9506149, 6.620158)
+radius = 0.083
+height = 12.167608
+material = ExtResource("2_3c8j7")
+
+[node name="Railing6" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(1, 0, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.9106855e-15, 0.3169973, 0.9506149, 6.620158)
+radius = 0.083
+height = 12.167608
+material = ExtResource("2_3c8j7")
+
+[node name="Railing7" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(1, 0, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.9106855e-15, 0.3169973, 2.2992783, 6.620158)
+radius = 0.083
+height = 12.167608
+material = ExtResource("2_3c8j7")
+
+[node name="Railing8" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(0.81915206, 0.57357645, -2.5071824e-08, 0, -4.371139e-08, -1, -0.57357645, 0.81915206, -3.5806274e-08, 2.0424953, 2.2992783, 15.133072)
+radius = 0.083
+height = 6.035123
+material = ExtResource("2_3c8j7")
+
+[node name="Railing9" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(0.81915206, 0.57357645, -2.5071824e-08, 0, -4.371139e-08, -1, -0.57357645, 0.81915206, -3.5806274e-08, 2.0424953, 0.949852, 15.133072)
+radius = 0.083
+height = 6.035123
+material = ExtResource("2_3c8j7")
+
+[node name="Railing10" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(0.81915206, 0.57357645, -2.5071824e-08, 0, -4.371139e-08, -1, -0.57357645, 0.81915206, -3.5806274e-08, 2.0424953, -0.07430267, 15.133072)
+radius = 0.083
+height = 6.035123
+material = ExtResource("2_3c8j7")
+
+[node name="Railing11" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(0.81915206, -0.57357645, 2.5071824e-08, 0, -4.371139e-08, -1, 0.57357645, 0.81915206, -3.5806274e-08, 5.471867, -0.07430267, 15.133072)
+radius = 0.083
+height = 6.035123
+material = ExtResource("2_3c8j7")
+
+[node name="Railing12" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(0.81915206, -0.57357645, 2.5071824e-08, 0, -4.371139e-08, -1, 0.57357645, 0.81915206, -3.5806274e-08, 5.471867, 0.9500351, 15.133072)
+radius = 0.083
+height = 6.035123
+material = ExtResource("2_3c8j7")
+
+[node name="Railing13" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(0.81915206, -0.57357645, 2.5071824e-08, 0, -4.371139e-08, -1, 0.57357645, 0.81915206, -3.5806274e-08, 5.467381, 2.3117065, 15.139479)
+radius = 0.083
+height = 6.0507646
+material = ExtResource("2_3c8j7")
+
+[node name="Railing14" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.7656198, 1.580513, 17.6009)
+radius = 0.083
+height = 4.5463824
+material = ExtResource("2_3c8j7")
+
+[node name="Railing4" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(1, 0, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.9106855e-15, 7.1762533, -0.07873535, 6.620158)
+radius = 0.083
+height = 12.167608
+material = ExtResource("2_3c8j7")
+
+[node name="Railing5" type="CSGCylinder3D" parent="Pirate Ship/Base/Walls & Railings"]
+transform = Transform3D(1, 0, -4.371139e-08, -4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.9106855e-15, 0.33687449, -0.07873535, 6.620158)
+radius = 0.083
+height = 12.167608
+material = ExtResource("2_3c8j7")
+
+[node name="Flags" type="Node3D" parent="Pirate Ship/Base"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.7531738, -0.8063965, -6.9091187)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Pirate Ship/Base/Flags"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.657373, 8.482712, 9.880082)
+use_collision = true
+radius = 0.1
+height = 12.939819
+material = ExtResource("1_mbqap")
+
+[node name="CSGPolygon3D" type="CSGPolygon3D" parent="Pirate Ship/Base/Flags/CSGCylinder3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.028270245, 4.0809402, 0.075520515)
+polygon = PackedVector2Array(-0.0714612, -1.3836365, -0.033955097, 1.3961334, 4.8714004, 2.3784256, 5.551972, -0.5868454)
+depth = 0.14
+material = ExtResource("4_vwowl")
+
+[node name="CSGPolygon3D2" type="CSGPolygon3D" parent="Pirate Ship/Base/Flags/CSGCylinder3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.028270245, 0.38848877, 0.054659843)
+polygon = PackedVector2Array(-0.0714612, -1.3836365, -0.033955097, 1.3961334, 5.219804, 1.6322937, 5.6901255, -1.981308)
+depth = 0.14
+material = ExtResource("4_vwowl")
+
+[node name="CSGPolygon3D3" type="CSGPolygon3D" parent="Pirate Ship/Base/Flags/CSGCylinder3D"]
+transform = Transform3D(-0.99035525, 0, 0.13855089, 0, 1, 0, -0.13855089, 0, -0.99035525, -0.10610199, 3.910431, -0.043988228)
+polygon = PackedVector2Array(-0.0714612, -1.3836365, -0.033955097, 1.3961334, 5.219804, 1.6322937, 5.6901255, -1.981308)
+depth = 0.14
+material = ExtResource("4_vwowl")
+
+[node name="CSGPolygon3D4" type="CSGPolygon3D" parent="Pirate Ship/Base/Flags/CSGCylinder3D"]
+transform = Transform3D(-0.99035525, 0, 0.13855089, 0, 1, 0, -0.13855089, 0, -0.99035525, -0.10610199, -0.7511749, -0.043988228)
+polygon = PackedVector2Array(-0.0714612, -1.3836365, -0.033955097, 1.3961334, 5.219804, 1.6322937, 5.6901255, -1.981308)
+depth = 0.14
+material = ExtResource("4_vwowl")
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Pirate Ship/Base/Flags"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.657373, 10.376297, 1.2392526)
+use_collision = true
+radius = 0.1
+height = 12.939819
+material = ExtResource("1_mbqap")
+
+[node name="CSGPolygon3D" type="CSGPolygon3D" parent="Pirate Ship/Base/Flags/CSGCylinder3D2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.387478, 1.7244797, 0.11365056)
+polygon = PackedVector2Array(8.638295, 11.475952, 11.504083, 11.40023, 13.324148, 11.614403, 14.44935, 11.187996, 15.887804, 11.703575, 16.981153, 11.612251, 17.926933, 11.280525, 18.795351, 11.763252, 20.852142, 11.645157, 21.495525, 10.291885, 21.341568, 8.9257965, 21.847527, 7.5506744, 21.563057, 6.1749268, 22.00381, 5.0267944, 21.999413, 3.7017136, 21.033966, 3.0328445, 19.147926, 2.4070053, 16.974457, 2.4080658, 15.432405, 2.20076, 14.600352, 2.4092178, 13.520254, 2.1604462, 12.027656, 2.0369492, 9.877727, 1.9557419, 8.229149, 2.2054214, 7.490288, 3.446289, 6.9433775, 6.1623, 7.6847105, 7.06884, 6.900072, 8.110825, 7.338257, 8.704796, 7.050501, 9.531891, 7.4129343, 10.142105, 7.7344837, 10.645187, 7.508399, 11.139595)
+depth = 0.14
+material = ExtResource("5_4el8r")
+
+[node name="Sprite3D" type="Sprite3D" parent="Pirate Ship/Base/Flags/CSGCylinder3D2/CSGPolygon3D"]
+transform = Transform3D(0.9999908, 0, -0.0043109497, 0, 1, 0, 0.0043109497, 0, 0.9999908, 14.685275, 7.3009796, 0.012127638)
+texture = ExtResource("6_778yy")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Pirate Ship"]
+transform = Transform3D(0.9480132, 0, 0.31823164, 0, 1, 0, -0.31823164, 0, 0.9480132, 3.7331748, 15.255669, 10.077974)
+size = Vector3(1, 0.6956787, 1)
+material = ExtResource("2_3c8j7")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Pirate Ship/CSGBox3D"]
+transform = Transform3D(1, 0, 4.8428774e-08, 0, 1, 0, -4.8428774e-08, 0, 1, -0.004755497, 0.04676056, -0.1134491)
+operation = 2
+use_collision = true
+size = Vector3(0.7668457, 0.6956787, 0.99664307)
+material = ExtResource("2_3c8j7")
+
+[node name="Sprite3D" type="Sprite3D" parent="Pirate Ship"]
+transform = Transform3D(0.57461965, 0, -0.8184209, 0, 1, 0, 0.8184209, 0, 0.57461965, 1.5720363, 1.9276581, 14.574965)
+texture = ExtResource("7_q0ygu")
